@@ -20,7 +20,7 @@ int combinations(int points){
 					for (int m = 0; m <= (points / SAFETY); ++m){
 						total= (i * TDP2) + (j * TDP1) + (k*TDP) + (l*FG) + (m * SAFETY);
 						if (total == points){
-						printf("%d TD + 2pt, %d TD + FG, %d TD, %d 3pt FG, %d Safety => %d\n", i, j, k, l, m, total);
+						printf("%d TD + 2pt, %d TD + FG, %d TD, %d 3pt FG, %d Safety\n", i, j, k, l, m);
 						}
 					}
 
