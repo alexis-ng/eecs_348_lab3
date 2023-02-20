@@ -4,7 +4,7 @@ or
 Use the build and run buttons in eclipse 
 
 *Make all* does not work in the terminal
-
+```
 Month sales report for 2022
 Month	Sales
 January	 23458.01
@@ -48,3 +48,4 @@ May	 37904.67
 April	 37820.88
 January	 23458.01
 
+```
